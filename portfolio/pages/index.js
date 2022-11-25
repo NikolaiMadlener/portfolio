@@ -5,6 +5,7 @@ import { useState } from "react";
 import Image from "next/image";
 import hemo from "../public/HeMoMarketing3.png";
 import encore from "../public/encoreMarketing.png";
+import sixt from "../public/SixtmarketingImage.png";
 import avatar from "../public/avatar.png";
 import aleasLight from "../public/aleas-light2.png";
 import msgLight from "../public/msg-light2.png";
@@ -31,15 +32,15 @@ export default function Home() {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
 
-            <main className="bg-white px-10 dark:bg-gray-900">
+            <main className="bg-white dark:bg-gray-900">
                 <section className="min-h-screen">
-                    <nav className="py-10 mb-12 flex justify-between dark:text-white">
-                        <h1 className="text-xl font-system">NM</h1>
+                    <nav className="py-10 mb-12 px-10 flex justify-between dark:text-white">
+                        <h1 className="text-xl font-system"></h1>
                         <ul className="flex items-center">
                             <li>
                                 <BsFillMoonStarsFill
                                     onClick={handleClick}
-                                    className=" cursor-pointer text-2xl"
+                                    className="cursor-pointer text-2xl"
                                 />
                             </li>
 
@@ -58,7 +59,7 @@ export default function Home() {
                             Nikolai Madlener
                         </h2>
                         <h3 className="text-2xl py-2 dark:text-white">
-                            Software Engineer
+                            Software Engineer, Student, Adventurer
                         </h3>
                         <p className="text-base md:text-lg lg:text-xl text-center text-gray-600 dark:text-gray-300 font-normal xl:w-10/12 xl:mx-auto">
                             I am a computer science student at TUM with
@@ -89,8 +90,8 @@ export default function Home() {
                                 Since the start of my studies I could gain
                                 valuable work experience at several companies
                                 and departments. Roles covered Mobile Developer,
-                                Agile Coach, Requirements Engineer, Key Account
-                                User, to name a few.{" "}
+                                Agile Coach, Requirements Engineer, Key User, to
+                                name a few.{" "}
                             </p>
                         </div>
                         <div className="xl:py-16 lg:py-16 md:py-16 sm:py-16 px-15 gap-8 flex flex-wrap justify-center align-middle">
@@ -153,24 +154,121 @@ export default function Home() {
                             .
                         </p>
                     </div>
-                    <div className="w-11/12 xl:w-2/3 lg:w-2/3 md:w-2/3 mx-auto sm:mb-10 mb-16 py-10">
-                        <div className="basis-1/3 flex-1 ">
-                            <Image
-                                className="rounded-lg object-cover"
-                                width={"100%"}
-                                height={"100%"}
-                                layout="responsive"
-                                src={hemo}
-                            />
+
+                    <div className="w-11/12 xl:w-2/3 lg:w-2/3 md:w-2/3 mx-auto sm:mb-10 mb-16 py-10 grid grid-cols-1 gap-8 md:grid-cols-2 xl:grid-cols-3">
+                        <div class="max-w-sm rounded-2xl overflow-hidden shadow-lg bg-slate-800">
+                            <a href="https://github.com/dhg-applab/HeMo">
+                                <Image
+                                    className="object-cover"
+                                    width={"100%"}
+                                    height={"100%"}
+                                    layout="responsive"
+                                    src={hemo}
+                                />
+                            </a>
+
+                            <div class="px-6 py-4">
+                                <div class="font-bold text-gray-800 dark:text-white text-xl mb-2">
+                                    TUM Healthy Mobility
+                                </div>
+                                <p class="text-gray-600 dark:text-gray-400 text-base">
+                                    TUM HeMo recommends healthy routes based on
+                                    different constraints the user can set such
+                                    as the preferred transportation modes
+                                    (Walking, Cycling, Public Transport) and
+                                    distance constraints. The TUM HeMo app aims
+                                    to increase physical activity in everyday
+                                    travel and changes the user's daily commute
+                                    habits.
+                                </p>
+                            </div>
+                            <div class="px-6 pt-4 pb-2">
+                                <span class="inline-block bg-cyan-500 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
+                                    Swift
+                                </span>
+                                <span class="inline-block bg-cyan-500 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
+                                    MapKit
+                                </span>
+                                <span class="inline-block bg-cyan-500 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
+                                    Firebase
+                                </span>
+                                <span class="inline-block bg-cyan-500 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
+                                    Docker
+                                </span>
+                            </div>
                         </div>
-                        <div className="basis-1/3 flex-1">
-                            <Image
-                                className="rounded-lg object-cover"
-                                width={"100%"}
-                                height={"100%"}
-                                layout="responsive"
-                                src={encore}
-                            />
+
+                        <div class="max-w-sm rounded-2xl overflow-hidden shadow-lg bg-slate-800 justify-center">
+                            <a href="https://github.com/NikolaiMadlener/EncoreApp">
+                                <Image
+                                    className="object-cover"
+                                    width={"100%"}
+                                    height={"100%"}
+                                    layout="responsive"
+                                    src={encore}
+                                />
+                            </a>
+                            <div class="px-6 py-4">
+                                <div class="font-bold text-gray-800 dark:text-white text-xl mb-2">
+                                    Encore
+                                </div>
+                                <p class="text-gray-600 dark:text-gray-400 text-base">
+                                    No need to fight for the aux-cable anymore -
+                                    simply create an encore session and invite
+                                    your friends. encore lets everyone suggest
+                                    their favourite songs and vote for songs
+                                    they love. The most popular song will always
+                                    be played next.
+                                </p>
+                            </div>
+                            <div class="px-6 pt-4 pb-2">
+                                <span class="inline-block bg-cyan-500 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
+                                    Swift
+                                </span>
+                                <span class="inline-block bg-cyan-500 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
+                                    SpotifySDK
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="max-w-sm rounded-2xl overflow-hidden shadow-lg bg-slate-800 justify-center">
+                            <a href="https://devpost.com/software/sixtcharge">
+                                <Image
+                                    className="object-cover"
+                                    width={"100%"}
+                                    height={"100%"}
+                                    layout="responsive"
+                                    src={sixt}
+                                />
+                            </a>
+                            <div class="max-h-full">
+                                <div class="flex flex-col justify-between">
+                                    <div class="px-6 py-4">
+                                        <div class="font-bold text-gray-800 dark:text-white text-xl mb-2">
+                                            SIXTCharge
+                                        </div>
+                                        <p class="text-gray-600 dark:text-gray-400 text-base">
+                                            The winning project of HackaTUM 2022
+                                            (overall winner out of more than 220
+                                            teams). Built in under 36 hours in a
+                                            group of three. SIXTCharge allows
+                                            people to charge sixt cars to earn
+                                            money.
+                                        </p>
+                                    </div>
+                                    <div class="px-6 pt-4 pb-2">
+                                        <span class="inline-block bg-cyan-500 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
+                                            Swift
+                                        </span>
+                                        <span class="inline-block bg-cyan-500 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
+                                            Mapbox
+                                        </span>
+                                        <span class="inline-block bg-cyan-500 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
+                                            Coaty/MQTT
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </section>
