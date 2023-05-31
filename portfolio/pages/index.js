@@ -1,5 +1,4 @@
 import Head from "next/head";
-import { BsFillMoonStarsFill } from "react-icons/bs";
 import { AiFillLinkedin, AiFillGithub, AiFillMail } from "react-icons/ai";
 import { useState } from "react";
 import Image from "next/image";
@@ -7,7 +6,6 @@ import hemo from "../public/HeMoMarketing3.png";
 import encore from "../public/encoreMarketing.png";
 import sixt from "../public/SixtmarketingImage.png";
 import teambeats from "../public/teambeats2.jpg";
-import avatar from "../public/avatar.png";
 import aleasLight from "../public/aleas-light2.png";
 import msgLight from "../public/msg-light2.png";
 import teslaLight from "../public/tesla-light2.png";
@@ -28,7 +26,7 @@ export default function Home() {
     return (
         <div className={darkMode ? "dark" : ""}>
             <Head>
-                <title>Welcome</title>
+                <title>Nikolai Madlener</title>
                 <meta
                     name="description"
                     content="Hi"
