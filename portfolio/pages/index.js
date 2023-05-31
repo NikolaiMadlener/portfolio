@@ -177,7 +177,7 @@ export default function Home() {
                                             (Walking, Cycling, Public Transport) and
                                             distance constraints. The TUM HeMo app aims
                                             to increase physical activity in everyday
-                                            travel and changes the user`&apos;`s daily commute
+                                            travel and changes the user&apos;s daily commute
                                             habits.
                                         </p>
                                     </div>
