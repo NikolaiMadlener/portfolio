@@ -40,13 +40,6 @@ export default function Home() {
                     <nav className="py-10 mb-12 px-10 flex justify-between dark:text-white">
                         <h1 className="text-xl font-system"></h1>
                         <ul className="flex items-center">
-                            {/* <li>
-                                <BsFillMoonStarsFill
-                                    onClick={handleClick}
-                                    className="cursor-pointer text-2xl"
-                                />
-                            </li> */}
-
                             <li>
                                 <a
                                     className="bg-gradient-to-r from-violet-500 to-violet-600 text-white px-4 py-2 rounded-md ml-8"
@@ -144,7 +137,6 @@ export default function Home() {
                             />
                         </div>
                     </div>
-                    {/* </div> */}
                 </section>
 
                 <section className="pt-40">
