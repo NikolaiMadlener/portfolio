@@ -141,9 +141,8 @@ export default function Home() {
                             Portfolio
                         </h1>
                         <p className="text-base md:text-lg lg:text-xl text-center text-gray-600 dark:text-gray-300 font-normal xl:w-10/12 xl:mx-auto px-8">
-                            Since the beginning of my journey as a computer
-                            science student, I have done multiple projects, both
-                            for companies and personal.
+                            During my journey as a computer
+                            science student, I did several projects for business, open-source, hackathons and, of course, just for fun.
                         </p>
                         <p className="text-base md:text-lg lg:text-xl text-center text-gray-600 dark:text-gray-300 font-normal xl:w-10/12 xl:mx-auto">
                             I mainly focused on App development using
