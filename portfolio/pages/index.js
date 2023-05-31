@@ -71,8 +71,13 @@ export default function Home() {
                             <AiFillGithub />
                         </a>
                     </div>
-                    <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-10 overflow-hidden">
-                        <Image src={pp} layout="fill" objectFit="cover" />
+                    <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-10 overflow-hidden transform 
+                                transition duration-300  hover:scale-[1.05]">
+                        <Image
+                            src={pp}
+                            layout="fill"
+                            objectFit="cover"
+                            alt={"Nikolai Madlener"} />
                     </div>
                 </section>
                 <section className="pt-40">
@@ -156,21 +161,23 @@ export default function Home() {
                     </div>
 
                     <div className="w-11/12 xl:w-2/3 lg:w-2/3 md:w-2/3 mx-auto sm:mb-10 mb-16 py-10 grid grid-cols-1 gap-8 md:grid-cols-2 xl:grid-cols-2">
-                        <div class="justify-center flex-row flex">
-                            <div class="max-w-md rounded-2xl overflow-hidden shadow-lg bg-black flex flex-col">
+                        <div className="justify-center flex-row flex">
+                            <div className="max-w-md rounded-2xl overflow-hidden shadow-lg bg-black flex flex-col transform 
+                                transition duration-200  hover:scale-[1.02]">
                                 <a href="https://github.com/dhg-applab/HeMo">
                                     <Image
                                         className="object-cover h-64 sm:h-48 md:h-48 lg:h-64"
                                         src={hemo}
+                                        alt={"TUM Healthy Mobility App"}
                                     />
                                 </a>
 
-                                <div class="flex flex-col flex-grow justify-between">
-                                    <div class="px-6 py-4">
-                                        <div class="font-bold text-gray-800 dark:text-white text-xl mb-2">
+                                <div className="flex flex-col flex-grow justify-between">
+                                    <div className="px-6 py-4">
+                                        <div className="font-bold text-gray-800 dark:text-white text-xl mb-2">
                                             TUM Healthy Mobility
                                         </div>
-                                        <p class="text-gray-600 dark:text-gray-100 text-base">
+                                        <p className="text-gray-600 dark:text-gray-100 text-base">
                                             TUM HeMo recommends healthy routes based on
                                             different constraints the user can set such
                                             as the preferred transportation modes
@@ -181,17 +188,17 @@ export default function Home() {
                                             habits.
                                         </p>
                                     </div>
-                                    <div class="px-6 pt-4 pb-2">
-                                        <span class="inline-block bg-violet-500 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
+                                    <div className="px-6 pt-4 pb-2">
+                                        <span className="inline-block bg-violet-500 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
                                             Swift
                                         </span>
-                                        <span class="inline-block bg-violet-500 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
+                                        <span className="inline-block bg-violet-500 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
                                             MapKit
                                         </span>
-                                        <span class="inline-block bg-violet-500 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
+                                        <span className="inline-block bg-violet-500 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
                                             Firebase
                                         </span>
-                                        <span class="inline-block bg-violet-500 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
+                                        <span className="inline-block bg-violet-500 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
                                             Docker
                                         </span>
                                     </div>
@@ -199,21 +206,23 @@ export default function Home() {
                             </div>
                         </div>
 
-                        <div class="justify-center flex-row flex">
-                            <div class="max-w-md rounded-2xl overflow-hidden shadow-lg bg-black flex flex-col">
+                        <div className="justify-center flex-row flex">
+                            <div className="max-w-md rounded-2xl overflow-hidden shadow-lg bg-black flex flex-col transform 
+                                transition duration-200  hover:scale-[1.02]">
                                 <a href="https://github.com/NikolaiMadlener/EncoreApp">
                                     <Image
                                         className="object-cover h-64 sm:h-48 md:h-48 lg:h-64"
                                         src={encore}
+                                        alt={"encore. App"}
                                     />
                                 </a>
 
-                                <div class="flex flex-col flex-grow justify-between">
-                                    <div class="px-6 py-4">
-                                        <div class="font-bold text-gray-800 dark:text-white text-xl mb-2">
+                                <div className="flex flex-col flex-grow justify-between">
+                                    <div className="px-6 py-4">
+                                        <div className="font-bold text-gray-800 dark:text-white text-xl mb-2">
                                             Encore
                                         </div>
-                                        <p class="text-gray-600 dark:text-gray-100 text-base">
+                                        <p className="text-gray-600 dark:text-gray-100 text-base">
                                             No need to fight for the aux-cable anymore -
                                             simply create an encore session and invite
                                             your friends. encore lets everyone suggest
@@ -222,11 +231,11 @@ export default function Home() {
                                             be played next.
                                         </p>
                                     </div>
-                                    <div class="px-6 pt-4 pb-2">
-                                        <span class="inline-block bg-violet-500 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
+                                    <div className="px-6 pt-4 pb-2">
+                                        <span className="inline-block bg-violet-500 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
                                             Swift
                                         </span>
-                                        <span class="inline-block bg-violet-500 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
+                                        <span className="inline-block bg-violet-500 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
                                             SpotifySDK
                                         </span>
                                     </div>
@@ -234,31 +243,33 @@ export default function Home() {
                             </div>
                         </div>
 
-                        <div class="justify-center flex-row flex">
-                            <div class="max-w-md rounded-2xl overflow-hidden shadow-lg bg-black flex flex-col">
+                        <div className="justify-center flex-row flex">
+                            <div className="max-w-md rounded-2xl overflow-hidden shadow-lg bg-black flex flex-col transform 
+                                transition duration-200  hover:scale-[1.02]">
                                 <a href="https://aleas.li/teambeats/">
                                     <Image
                                         className="object-cover h-64 sm:h-48 md:h-48 lg:h-64"
                                         src={teambeats}
+                                        alt={"team.beats App"}
                                     />
                                 </a>
 
-                                <div class="flex flex-col flex-grow justify-between">
-                                    <div class="px-4 py-4">
-                                        <div class="font-bold text-gray-800 dark:text-white text-xl mb-2">
+                                <div className="flex flex-col flex-grow justify-between">
+                                    <div className="px-4 py-4">
+                                        <div className="font-bold text-gray-800 dark:text-white text-xl mb-2">
                                             team.beats
                                         </div>
-                                        <p class="text-gray-600 dark:text-gray-100 text-base">
+                                        <p className="text-gray-600 dark:text-gray-100 text-base">
                                             team.beats is the challenge app for teams and organizations.
                                             Each participant collects points daily for previously individually defined categories.
                                             The gamification factor also spurs you on to collect as many points as possible.
                                         </p>
                                     </div>
-                                    <div class="px-6 pt-4 pb-2">
-                                        <span class="inline-block bg-violet-500 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
+                                    <div className="px-6 pt-4 pb-2">
+                                        <span className="inline-block bg-violet-500 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
                                             React Native
                                         </span>
-                                        <span class="inline-block bg-violet-500 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
+                                        <span className="inline-block bg-violet-500 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
                                             Firebase
                                         </span>
                                     </div>
@@ -266,21 +277,23 @@ export default function Home() {
                             </div>
                         </div>
 
-                        <div class="justify-center flex-row flex">
-                            <div class="max-w-md rounded-2xl overflow-hidden shadow-lg bg-black flex flex-col">
+                        <div className="justify-center flex-row flex">
+                            <div className="max-w-md rounded-2xl overflow-hidden shadow-lg bg-black flex flex-col transform 
+                                transition duration-200  hover:scale-[1.02]">
                                 <a href="https://devpost.com/software/sixtcharge">
                                     <Image
                                         className="object-cover h-64 sm:h-48 md:h-48 lg:h-64"
                                         src={sixt}
+                                        alt={"SIXTCharge App"}
                                     />
                                 </a>
 
-                                <div class="flex flex-col flex-grow justify-between">
-                                    <div class="px-6 py-4">
-                                        <div class="font-bold text-gray-800 dark:text-white text-xl mb-2">
+                                <div className="flex flex-col flex-grow justify-between">
+                                    <div className="px-6 py-4">
+                                        <div className="font-bold text-gray-800 dark:text-white text-xl mb-2">
                                             SIXTCharge
                                         </div>
-                                        <p class="text-gray-600 dark:text-gray-100 text-base">
+                                        <p className="text-gray-600 dark:text-gray-100 text-base">
                                             The winning project of HackaTUM 2022
                                             (overall winner out of more than 220
                                             teams). Built in under 36 hours in a
@@ -289,14 +302,14 @@ export default function Home() {
                                             money.
                                         </p>
                                     </div>
-                                    <div class="px-6 pt-4 pb-2">
-                                        <span class="inline-block bg-violet-500 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
+                                    <div className="px-6 pt-4 pb-2">
+                                        <span className="inline-block bg-violet-500 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
                                             Swift
                                         </span>
-                                        <span class="inline-block bg-violet-500 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
+                                        <span className="inline-block bg-violet-500 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
                                             Mapbox
                                         </span>
-                                        <span class="inline-block bg-violet-500 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
+                                        <span className="inline-block bg-violet-500 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
                                             Coaty/MQTT
                                         </span>
                                     </div>
