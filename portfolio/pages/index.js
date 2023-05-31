@@ -27,7 +27,14 @@ export default function Home() {
 
     return (
         <div className={darkMode ? "dark" : ""}>
-
+            <Head>
+                <title>Welcome</title>
+                <meta
+                    name="description"
+                    content="Hi"
+                />
+                <link rel="icon" href="/favicon.ico" />
+            </Head>
             <main className="bg-white dark:bg-[#161617]">
                 <section className="min-h-screen">
                     <nav className="py-10 mb-12 px-10 flex justify-between dark:text-white">
