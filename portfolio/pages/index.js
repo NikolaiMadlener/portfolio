@@ -53,7 +53,7 @@ export default function Home() {
                             Nikolai Madlener
                         </h2>
                         <h3 className="text-2xl py-2 dark:text-white">
-                            Software Engineer & Student
+                            Software Engineer &amp; Student
                         </h3>
                         <p className="text-base md:text-lg lg:text-xl text-center text-gray-600 dark:text-gray-300 font-normal xl:w-10/12 xl:mx-auto px-8">
                             I am a computer science student at TUM with
@@ -90,7 +90,7 @@ export default function Home() {
                         <p className="text-base md:text-lg lg:text-xl text-center text-gray-600 dark:text-gray-300 font-normal xl:w-10/12 xl:mx-auto px-8">
                             Since the start of my studies I could gain
                             valuable work experience at several companies
-                            and departments. Roles covered Mobile & Web Developer,
+                            and departments. Roles covered Mobile &amp; Web Developer,
                             Agile Coach, Requirements Engineer, Key User, to
                             name a few.{" "}
                         </p>
