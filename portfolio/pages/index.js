@@ -12,7 +12,7 @@ import teslaLight from "../public/tesla-light2.png";
 import tumLight from "../public/tum-light2.png";
 import zeissLight from "../public/zeiss-light2.png";
 import pku from "../public/peking-university-seal.png";
-import pp from "../public/pp.jpg"
+import pp from "../public/pp.jpeg"
 
 
 export default function Home() {
@@ -43,17 +43,17 @@ export default function Home() {
                                     className="bg-gradient-to-r from-violet-500 to-violet-600 text-white px-4 py-2 rounded-md ml-8"
                                     href="https://nikolaimadlener.github.io/CV/"
                                 >
-                                    Resume
+                                    My Resume
                                 </a>
                             </li>
                         </ul>
                     </nav>
                     <div className="text-center px-10 pb-10">
-                        <h2 className="text-5xl py-2 text-violet-600 dark:text-violet-600 font-medium">
+                        <h2 className="text-6xl py-2 text-transparent bg-clip-text bg-gradient-to-b from-indigo-400 via-violet-400 to-violet-600 font-medium">
                             Nikolai Madlener
                         </h2>
                         <h3 className="text-2xl py-2 dark:text-white">
-                            Software Engineer, Student, Adventurer
+                            Software Engineer & Student
                         </h3>
                         <p className="text-base md:text-lg lg:text-xl text-center text-gray-600 dark:text-gray-300 font-normal xl:w-10/12 xl:mx-auto px-8">
                             I am a computer science student at TUM with
@@ -61,16 +61,20 @@ export default function Home() {
                             passioned about Swift, software architecture, distributed systems and machine learning applications.
                         </p>
                     </div>
-                    <div className="text-5xl flex justify-center gap-8 py-3 text-gray-800 dark:text-gray-400">
-                        <a href="https://www.linkedin.com/in/nikolai-madlener-163b14169/">
-                            <AiFillLinkedin />
-                        </a>
-                        <a href="https://www.github.com/nikolaimadlener">
-                            <AiFillGithub />
-                        </a>
+                    <div className="pb-12">
+                        <p className="text-base md:text-lg lg:text-xl text-center text-gray-600 dark:text-gray-300 font-normal xl:w-10/12 xl:mx-auto px-8 pb-4">
+                            Let's connect!
+                        </p>
+                        <div className="text-5xl flex justify-center gap-8 py-3 text-gray-800 dark:text-gray-400">
+                            <a href="https://www.linkedin.com/in/nikolai-madlener-163b14169/">
+                                <AiFillLinkedin />
+                            </a>
+                            <a href="https://www.github.com/nikolaimadlener">
+                                <AiFillGithub />
+                            </a>
+                        </div>
                     </div>
-                    <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-10 overflow-hidden transform 
-                                transition duration-300  hover:scale-[1.05]">
+                    <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-10 overflow-hidden transform transition duration-300  hover:scale-[1.05]">
                         <Image
                             src={pp}
                             layout="fill"
@@ -86,7 +90,7 @@ export default function Home() {
                         <p className="text-base md:text-lg lg:text-xl text-center text-gray-600 dark:text-gray-300 font-normal xl:w-10/12 xl:mx-auto px-8">
                             Since the start of my studies I could gain
                             valuable work experience at several companies
-                            and departments. Roles covered Mobile Developer,
+                            and departments. Roles covered Mobile & Web Developer,
                             Agile Coach, Requirements Engineer, Key User, to
                             name a few.{" "}
                         </p>
@@ -144,13 +148,13 @@ export default function Home() {
                         </h1>
                         <p className="text-base md:text-lg lg:text-xl text-center text-gray-600 dark:text-gray-300 font-normal xl:w-10/12 xl:mx-auto px-8">
                             During my journey as a computer
-                            science student, I did several projects for business, open-source, hackathons and, of course, just for fun.
+                            science student, I did several projects for business, open-source, hackathons and, most importantly, just for fun.
                         </p>
                         <p className="text-base md:text-lg lg:text-xl text-center text-gray-600 dark:text-gray-300 font-normal xl:w-10/12 xl:mx-auto">
-                            I mainly focused on App development using
-                            <span className="text-violet-600"> {" Swift "} </span>
+                            I mainly focus on app development using
+                            <span className="text-violet-500"> {" Swift "} </span>
                             and
-                            <span className="text-violet-600">
+                            <span className="text-violet-500">
                                 {" React Native"}
                             </span>
                             .
@@ -217,7 +221,7 @@ export default function Home() {
                                 <div className="flex flex-col flex-grow justify-between">
                                     <div className="px-6 py-4">
                                         <div className="font-bold text-gray-800 dark:text-white text-xl mb-2">
-                                            Encore
+                                            encore
                                         </div>
                                         <p className="text-gray-600 dark:text-gray-100 text-base">
                                             No need to fight for the aux-cable anymore -
