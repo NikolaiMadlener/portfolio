@@ -63,7 +63,7 @@ export default function Home() {
                     </div>
                     <div className="pb-12">
                         <p className="text-base md:text-lg lg:text-xl text-center text-gray-600 dark:text-gray-300 font-normal xl:w-10/12 xl:mx-auto px-8 pb-4">
-                            Let's connect!
+                            Let&apos;s connect!
                         </p>
                         <div className="text-5xl flex justify-center gap-8 py-3 text-gray-800 dark:text-gray-400">
                             <a href="https://www.linkedin.com/in/nikolai-madlener-163b14169/">
