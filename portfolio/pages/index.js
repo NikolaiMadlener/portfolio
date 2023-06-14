@@ -2,9 +2,9 @@ import Head from "next/head";
 import { AiFillLinkedin, AiFillGithub, AiFillMail } from "react-icons/ai";
 import { useState } from "react";
 import Image from "next/image";
-import hemo from "../public/HeMoMarketing3.png";
+import hemo from "../public/HeMoMarketing3.JPG";
 import encore from "../public/encoreMarketing.png";
-import sixt from "../public/SixtmarketingImage.png";
+import sixt from "../public/SixtmarketingImage.JPG";
 import teambeats from "../public/teambeats2.jpg";
 import aleasLight from "../public/aleas-light2.png";
 import msgLight from "../public/msg-light2.png";
@@ -13,7 +13,9 @@ import tumLight from "../public/tum-light2.png";
 import zeissLight from "../public/zeiss-light2.png";
 import pku from "../public/peking-university-seal.png";
 import pp from "../public/pp.jpeg"
-
+import testflight from "../public/Testflight_Icon.png"
+import googleBadge from "../public/google-play-badge.png"
+import appleBadge from "../public/appStore-badge.png"
 
 export default function Home() {
     const [darkMode, setDarkMode] = useState(false);
@@ -161,22 +163,38 @@ export default function Home() {
                         </p>
                     </div>
 
-                    <div className="w-11/12 xl:w-2/3 lg:w-2/3 md:w-2/3 mx-auto sm:mb-10 mb-16 py-10 grid grid-cols-1 gap-8 md:grid-cols-2 xl:grid-cols-2">
+                    <div className="w-11/12 xl:w-2/3 lg:w-2/3 md:w-2/3 mx-auto sm:mb-10 mb-16 py-10 grid grid-cols-1 gap-8 md:grid-cols-1 xl:grid-cols-2">
                         <div className="justify-center flex-row flex">
                             <div className="max-w-md rounded-2xl overflow-hidden shadow-lg bg-black flex flex-col transform 
                                 transition duration-200  hover:scale-[1.02]">
-                                <a href="https://github.com/dhg-applab/HeMo">
-                                    <Image
-                                        className="object-cover h-64 sm:h-48 md:h-48 lg:h-64"
-                                        src={hemo}
-                                        alt={"TUM Healthy Mobility App"}
-                                    />
-                                </a>
+
+                                <Image
+                                    className="object-cover h-64 sm:h-48 md:h-48 lg:h-64"
+                                    src={hemo}
+                                    alt={"TUM Healthy Mobility App"}
+                                />
+
 
                                 <div className="flex flex-col flex-grow justify-between">
                                     <div className="px-6 py-4">
-                                        <div className="font-bold text-gray-800 dark:text-white text-xl mb-2">
-                                            TUM Healthy Mobility
+                                        <div className="flex-row flex justify-between mb-6">
+                                            <div className="inline-block align-middle font-bold text-gray-800 dark:text-white text-xl">
+                                                TUM Healthy Mobility
+                                            </div>
+                                            <a href="">
+                                                <div className="flex-row flex content-center">
+                                                    <div className="content-center">
+                                                        <span className="text-white font-thin text-xs px-2">Try it on Testflight</span>
+                                                    </div>
+
+                                                    <Image
+                                                        className="object-cover h-8 w-8 rounded-lg overflow-hidden"
+                                                        src={testflight}
+                                                        alt={"encore. App Testflight"}
+                                                    />
+
+                                                </div>
+                                            </a>
                                         </div>
                                         <p className="text-gray-600 dark:text-gray-100 text-base">
                                             TUM HeMo recommends healthy routes based on
@@ -220,8 +238,24 @@ export default function Home() {
 
                                 <div className="flex flex-col flex-grow justify-between">
                                     <div className="px-6 py-4">
-                                        <div className="font-bold text-gray-800 dark:text-white text-xl mb-2">
-                                            encore
+                                        <div className="flex-row flex justify-between mb-6 content-center">
+                                            <div className="inline-block align-middle font-bold text-gray-800 dark:text-white text-xl">
+                                                encore
+                                            </div>
+                                            <a href="">
+                                                <div className="flex-row flex content-center">
+                                                    <div className="content-center">
+                                                        <span className="text-white font-thin text-xs px-2">Try it on Testflight</span>
+                                                    </div>
+
+                                                    <Image
+                                                        className="object-cover h-8 w-8 rounded-lg overflow-hidden"
+                                                        src={testflight}
+                                                        alt={"encore. App Testflight"}
+                                                    />
+
+                                                </div>
+                                            </a>
                                         </div>
                                         <p className="text-gray-600 dark:text-gray-100 text-base">
                                             No need to fight for the aux-cable anymore -
@@ -257,8 +291,26 @@ export default function Home() {
 
                                 <div className="flex flex-col flex-grow justify-between">
                                     <div className="px-4 py-4">
-                                        <div className="font-bold text-gray-800 dark:text-white text-xl mb-2">
-                                            team.beats
+                                        <div className="flex-row flex justify-between mb-2">
+                                            <div className="font-bold text-gray-800 dark:text-white text-xl">
+                                                team.beats
+                                            </div>
+                                            <div className="flex flex-row space-x-2">
+                                                <a href="https://play.google.com/store/apps/details?id=com.aleasag.teambeats">
+                                                    <Image
+                                                        className="object-contain h-14 w-28 -mt-3 rounded overflow-hidden"
+                                                        src={googleBadge}
+                                                        alt={"team.beats App on Google Play Store"}
+                                                    />
+                                                </a>
+                                                <a href="https://apps.apple.com/at/app/team-beats/id1614805519">
+                                                    <Image
+                                                        className="object-contain h-8 w-24 rounded overflow-hidden"
+                                                        src={appleBadge}
+                                                        alt={"team.beats App on Google Play Store"}
+                                                    />
+                                                </a>
+                                            </div>
                                         </div>
                                         <p className="text-gray-600 dark:text-gray-100 text-base">
                                             team.beats is the challenge app for teams and organizations.
@@ -291,7 +343,7 @@ export default function Home() {
 
                                 <div className="flex flex-col flex-grow justify-between">
                                     <div className="px-6 py-4">
-                                        <div className="font-bold text-gray-800 dark:text-white text-xl mb-2">
+                                        <div className="font-bold text-gray-800 dark:text-white text-xl mb-6">
                                             SIXTCharge
                                         </div>
                                         <p className="text-gray-600 dark:text-gray-100 text-base">
