@@ -13,7 +13,7 @@ import tumLight from "../public/tum-light2.png";
 import zeissLight from "../public/zeiss-light2.png";
 import pku from "../public/peking-university-seal.png";
 import pp from "../public/pp.jpeg"
-import testflight from "../public/Testflight_Icon.png"
+import testflight from "../public/testflight-Icon.png"
 import googleBadge from "../public/google-play-badge.png"
 import appleBadge from "../public/appStore-badge.png"
 
