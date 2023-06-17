@@ -12,10 +12,10 @@ import teslaLight from "../public/tesla-light2.png";
 import tumLight from "../public/tum-light2.png";
 import zeissLight from "../public/zeiss-light2.png";
 import pku from "../public/peking-university-seal.png";
-import pp from "../public/pp.jpeg"
-import testflight from "../public/testflight-Icon.png"
-import googleBadge from "../public/google-play-badge.png"
-import appleBadge from "../public/appStore-badge.png"
+import pp from "../public/pp.jpeg";
+import testflight from "../public/testflight-Icon.png";
+import googleBadge from "../public/google-play-badge.png";
+import appleBadge from "../public/appStore-badge.png";
 
 export default function Home() {
     const [darkMode, setDarkMode] = useState(false);
