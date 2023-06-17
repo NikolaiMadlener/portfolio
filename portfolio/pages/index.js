@@ -181,7 +181,7 @@ export default function Home() {
                                             <div className="inline-block align-middle font-bold text-gray-800 dark:text-white text-xl">
                                                 TUM Healthy Mobility
                                             </div>
-                                            <a href="">
+                                            <a href="https://testflight.apple.com/join/fQBUbOYY">
                                                 <div className="flex-row flex content-center">
                                                     <div className="content-center">
                                                         <span className="text-white font-thin text-xs px-2">Try it on Testflight</span>
@@ -242,7 +242,7 @@ export default function Home() {
                                             <div className="inline-block align-middle font-bold text-gray-800 dark:text-white text-xl">
                                                 encore
                                             </div>
-                                            <a href="">
+                                            <a href="https://testflight.apple.com/join/EFWCjO0n">
                                                 <div className="flex-row flex content-center">
                                                     <div className="content-center">
                                                         <span className="text-white font-thin text-xs px-2">Try it on Testflight</span>
