@@ -13,9 +13,10 @@ import tumLight from "../public/tum-light2.png";
 import zeissLight from "../public/zeiss-light2.png";
 import pku from "../public/peking-university-seal.png";
 import pp from "../public/pp.jpeg";
-import testflight from "../public/testflight-Icon.png";
+
 import googleBadge from "../public/google-play-badge.png";
 import appleBadge from "../public/appStore-badge.png";
+// import testflightIcon from "../public/appStore-badge.png";
 
 export default function Home() {
     const [darkMode, setDarkMode] = useState(false);
@@ -182,16 +183,16 @@ export default function Home() {
                                                 TUM Healthy Mobility
                                             </div>
                                             <a href="https://testflight.apple.com/join/fQBUbOYY">
-                                                <div className="flex-row flex content-center">
-                                                    <div className="content-center">
-                                                        <span className="text-white font-thin text-xs px-2">Try it on Testflight</span>
+                                                <div className="flex-row flex content-center rounded-md border-solid border-white border h-8 ">
+                                                    <div className="content-center py-1 flex-column align-middle flex">
+                                                        <span className="text-white font-thin text-xs px-2 inline-block py-1">Try it on Testflight</span>
                                                     </div>
 
-                                                    <Image
+                                                    {/* <Image
                                                         className="object-cover h-8 w-8 rounded-lg overflow-hidden"
-                                                        src={testflight}
+                                                        src={testflightIcon}
                                                         alt={"encore. App Testflight"}
-                                                    />
+                                                    /> */}
 
                                                 </div>
                                             </a>
@@ -243,16 +244,16 @@ export default function Home() {
                                                 encore
                                             </div>
                                             <a href="https://testflight.apple.com/join/EFWCjO0n">
-                                                <div className="flex-row flex content-center">
-                                                    <div className="content-center">
-                                                        <span className="text-white font-thin text-xs px-2">Try it on Testflight</span>
+                                            <div className="flex-row flex content-center rounded-md border-solid border-white border h-8 ">
+                                                    <div className="content-center py-1 flex-column align-middle flex">
+                                                        <span className="text-white font-thin text-xs px-2 inline-block py-1">Try it on Testflight</span>
                                                     </div>
 
-                                                    <Image
+                                                    {/* <Image
                                                         className="object-cover h-8 w-8 rounded-lg overflow-hidden"
-                                                        src={testflight}
+                                                        src={testflightIcon}
                                                         alt={"encore. App Testflight"}
-                                                    />
+                                                    /> */}
 
                                                 </div>
                                             </a>
