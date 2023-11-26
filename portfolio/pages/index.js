@@ -166,7 +166,7 @@ export default function Home() {
 
                     <div className="w-11/12 xl:w-2/3 lg:w-2/3 md:w-2/3 mx-auto sm:mb-10 mb-16 py-10 grid grid-cols-1 gap-8 md:grid-cols-1 xl:grid-cols-2">
                         <div className="justify-center flex-row flex">
-                            <div className="max-w-md rounded-2xl overflow-hidden shadow-lg bg-black flex flex-col transform 
+                            <div className="max-w-md rounded-2xl overflow-hidden shadow-lg bg-slate-200 dark:bg-black flex flex-col transform 
                                 transition duration-200  hover:scale-[1.02]">
 
                                 <Image
@@ -227,7 +227,7 @@ export default function Home() {
                         </div>
 
                         <div className="justify-center flex-row flex">
-                            <div className="max-w-md rounded-2xl overflow-hidden shadow-lg bg-black flex flex-col transform 
+                            <div className="max-w-md rounded-2xl overflow-hidden shadow-lg bg-slate-200 dark:bg-black flex flex-col transform 
                                 transition duration-200  hover:scale-[1.02]">
                                 <a href="https://github.com/NikolaiMadlener/EncoreApp">
                                     <Image
@@ -280,7 +280,7 @@ export default function Home() {
                         </div>
 
                         <div className="justify-center flex-row flex">
-                            <div className="max-w-md rounded-2xl overflow-hidden shadow-lg bg-black flex flex-col transform 
+                            <div className="max-w-md rounded-2xl overflow-hidden shadow-lg bg-slate-200 dark:bg-black flex flex-col transform 
                                 transition duration-200  hover:scale-[1.02]">
                                 <a href="https://aleas.li/teambeats/">
                                     <Image
@@ -332,7 +332,7 @@ export default function Home() {
                         </div>
 
                         <div className="justify-center flex-row flex">
-                            <div className="max-w-md rounded-2xl overflow-hidden shadow-lg bg-black flex flex-col transform 
+                            <div className="max-w-md rounded-2xl overflow-hidden shadow-lg bg-slate-200 dark:bg-black flex flex-col transform 
                                 transition duration-200  hover:scale-[1.02]">
                                 <a href="https://devpost.com/software/sixtcharge">
                                     <Image
