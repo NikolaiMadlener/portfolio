@@ -1,5 +1,6 @@
 import Head from "next/head";
 import { AiFillLinkedin, AiFillGithub, AiFillMail } from "react-icons/ai";
+import { BsFillMoonStarsFill } from "react-icons/bs";
 import { useState } from "react";
 import Image from "next/image";
 import hemo from "../public/HeMoMarketing3.JPG";
