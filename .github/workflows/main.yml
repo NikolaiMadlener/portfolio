@@ -20,8 +20,7 @@ jobs:
         username: nikolai
         key: ${{ secrets.SSH_PRIVATE_KEY }}
         script: |
-          sudo su
           cd /var/www/portfolio/portfolio
-          git pull
-          npm run build
-          /root/.nvm/versions/node/v18.12.1/bin/pm2 restart portfolio
+          sudo git pull
+          sudo npm run build
+          sudo /root/.nvm/versions/node/v18.12.1/bin/pm2 restart portfolio
