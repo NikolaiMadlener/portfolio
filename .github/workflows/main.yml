@@ -20,6 +20,7 @@ jobs:
         username: nikolai
         key: ${{ secrets.SSH_PRIVATE_KEY }}
         script: |
+          sudo su
           cd /var/www/portfolio/portfolio
           git pull
           npm run build
