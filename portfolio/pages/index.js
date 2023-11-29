@@ -17,7 +17,6 @@ import pp from "../public/pp.jpeg";
 
 import googleBadge from "../public/google-play-badge.png";
 import appleBadge from "../public/appStore-badge.png";
-// import testflightIcon from "../public/appStore-badge.png";
 
 export default function Home() {
     const [darkMode, setDarkMode] = useState(false);
