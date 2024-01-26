@@ -13,6 +13,8 @@ import teslaLight from "../public/tesla-light2.png";
 import tumLight from "../public/tum-light2.png";
 import zeissLight from "../public/zeiss-light2.png";
 import pku from "../public/peking-university-seal.png";
+import citymonitor from "../public/citymonitor.png";
+import stanford from "../public/stanford.png";
 import pp from "../public/pp.jpeg";
 
 import googleBadge from "../public/google-play-badge.png";
@@ -129,6 +131,13 @@ export default function Home() {
                             <Image
                                 className="object-contain"
                                 height={100}
+                                src={citymonitor}
+                            />
+                        </div>
+                        <div className="w-6/12 xl:w-1/4 lg:w-1/4 md:w-1/4 flex justify-center xl:pt-10 items-center">
+                            <Image
+                                className="object-contain"
+                                height={100}
                                 src={zeissLight}
                             />
                         </div>
@@ -144,6 +153,13 @@ export default function Home() {
                                 className="object-contain"
                                 height={100}
                                 src={pku}
+                            />
+                        </div>
+                        <div className="w-6/12 xl:w-1/4 lg:w-1/4 md:w-1/4 flex justify-center xl:pt-10 items-center">
+                            <Image
+                                className="object-contain"
+                                height={100}
+                                src={stanford}
                             />
                         </div>
                     </div>
