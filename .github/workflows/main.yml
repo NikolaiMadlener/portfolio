@@ -22,5 +22,6 @@ jobs:
         script: |
           cd /var/www/portfolio/portfolio
           sudo git pull
+          sudo npm install
           sudo npm run build
           sudo /root/.nvm/versions/node/v18.12.1/bin/pm2 restart portfolio
