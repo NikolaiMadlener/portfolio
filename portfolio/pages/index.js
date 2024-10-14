@@ -97,6 +97,7 @@ export default function Home() {
               News
             </h1>
           </div>
+
           <div className="xl:py-16 lg:py-16 md:py-16 sm:py-16 px-15 gap-12 flex flex-wrap justify-center align-middle pt-10">
             <div className="flex overflow-x-auto pb-10 hide-scroll-bar">
               <div className="flex flex-nowrap lg:ml-40 md:ml-20 ml-10 ">
@@ -122,7 +123,7 @@ export default function Home() {
                             September, 2024
                           </p>
                           <p className="text-gray-600 dark:text-gray-200 text-sm">
-                            Last summer I was a visiting researcher at Stanford
+                            This summer I was a visiting researcher at Stanford
                             University writing my master's thesis at Stanford
                             Biodesign.
                           </p>
@@ -158,10 +159,6 @@ export default function Home() {
                           <p className="text-gray-600 dark:text-gray-200 text-sm">
                             For the second time in a row, my team and I won the
                             HackaTUM, one of Europe&apos;s largest hackathons.
-                            <a href="https://github.com/NikolaiMadlener/EncoreApp">
-                              encore
-                            </a>
-                            .
                           </p>
                         </div>
                         <p className="text-blue-500 text-sm mt-4">
@@ -227,8 +224,8 @@ export default function Home() {
                             November, 2022
                           </p>
                           <p className="text-gray-600 dark:text-gray-200 text-sm">
-                            I won my first large hackathon with my two friends
-                            at HackaTUM 2022 with the iOS app we built for Sixt.
+                            I won my first large hackathon with two friends at
+                            HackaTUM 2022 with an iOS app we built for Sixt.
                           </p>
                         </div>
                         <p className="text-blue-500 text-sm mt-4">
