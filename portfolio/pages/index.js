@@ -17,6 +17,11 @@ import citymonitor from "../public/citymonitor.png";
 import stanford from "../public/stanford.png";
 import pp from "../public/pp.jpeg";
 import hrtex from "../public/hrtex.png";
+import swift_news from "../public/swift-news.jpeg";
+import pku_news from "../public/pku-news.jpeg";
+import stanford_news from "../public/stanford-news.jpeg";
+import hackatum1_news from "../public/hackatum1-news.jpeg";
+import hackatum0_news from "../public/hackatum0-news.jpeg";
 
 import googleBadge from "../public/google-play-badge.png";
 import appleBadge from "../public/appStore-badge.png";
@@ -109,11 +114,15 @@ export default function Home() {
                       rel="noopener noreferrer"
                       className="block h-full"
                     >
-                      <img
+                      <Image
+                        className="w-full h-32 object-cover"
+                        src={stanford_news}
+                      />
+                      {/* <img
                         src="https://media.licdn.com/dms/image/v2/D4E22AQFxIgSDmn2FuA/feedshare-shrink_800/feedshare-shrink_800/0/1722012081756?e=1731542400&v=beta&t=pSEz_PSYc91Ot8IfPqYqw4Pz_sIR4jLDc3PL5xJXe0Q"
                         alt="Article 1"
                         className="w-full h-32 object-cover"
-                      />
+                      /> */}
                       <div className="p-4 h-64 flex flex-col justify-between">
                         <div>
                           <h3 className="text-lg font-bold mb-2 dark:text-white">
@@ -143,11 +152,15 @@ export default function Home() {
                       rel="noopener noreferrer"
                       className="block h-full"
                     >
-                      <img
+                      <Image
+                        className="w-full h-32 object-cover"
+                        src={hackatum1_news}
+                      />
+                      {/* <img
                         src="https://www.merkur.de/assets/images/33/546/33546181-die-vier-informatik-studenten-bei-der-praesentation-nach-durchprogrammierten-naechten-3aMH.jpg"
                         alt="Article 2"
                         className="w-full h-32 object-cover"
-                      />
+                      /> */}
                       <div className="p-4 h-64 flex flex-col justify-between">
                         <div>
                           <h3 className="text-lg font-bold mb-2 dark:text-white">
@@ -176,11 +189,15 @@ export default function Home() {
                       rel="noopener noreferrer"
                       className="block h-full"
                     >
-                      <img
+                      <Image
+                        className="w-full h-32 object-cover"
+                        src={pku_news}
+                      />
+                      {/* <img
                         src="https://media.licdn.com/dms/image/v2/D5622AQG6JL-_N_jQGg/feedshare-shrink_1280/feedshare-shrink_1280/0/1690512252666?e=1731542400&v=beta&t=06RBhrDZ2XGJ3y8u_JvcynwMQElIylKSRkIw-gLikSk"
                         alt="Article 3"
                         className="w-full h-32 object-cover"
-                      />
+                      /> */}
                       <div className="p-4 h-64 flex flex-col justify-between">
                         <div>
                           <h3 className="text-lg font-bold mb-2 dark:text-white">
@@ -210,11 +227,15 @@ export default function Home() {
                       rel="noopener noreferrer"
                       className="block h-full"
                     >
-                      <img
+                      <Image
+                        className="w-full h-32 object-cover"
+                        src={hackatum0_news}
+                      />
+                      {/* <img
                         src="https://media.licdn.com/dms/image/v2/C4D22AQGlpku6MhPOSA/feedshare-shrink_1280/feedshare-shrink_1280/0/1669232708061?e=1731542400&v=beta&t=WPmcdabrWKU7_kRaxb2lCIreFQI8tz8vFLkgfFjh9Ck"
                         alt="Article 4"
                         className="w-full h-32 object-cover"
-                      />
+                      /> */}
                       <div className="p-4 h-64 flex flex-col justify-between">
                         <div>
                           <h3 className="text-lg font-bold mb-2 dark:text-white">
@@ -243,11 +264,15 @@ export default function Home() {
                       rel="noopener noreferrer"
                       className="block h-full"
                     >
-                      <img
+                      <Image
+                        className="w-full h-32 object-cover"
+                        src={swift_news}
+                      />
+                      {/* <img
                         src="https://media.licdn.com/dms/image/v2/C4D22AQH2M-DnGYgEOg/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1666729836342?e=1731542400&v=beta&t=4rIAwK-2mVGX9n3tI2nWdBZW8DHziv7R7LOqnRICTOs"
                         alt="Article 5"
                         className="w-full h-32 object-cover"
-                      />
+                      /> */}
                       <div className="p-4 h-64 flex flex-col justify-between">
                         <div>
                           <h3 className="text-lg font-bold mb-2 dark:text-white">
